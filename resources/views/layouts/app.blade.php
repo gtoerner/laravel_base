@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Laravel</title>
+        <title>MySite - @yield('title')</title>
 
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -33,7 +33,7 @@
         <a class="navbar-brand" href="/">WebSiteName</a>
     </div>
     <ul class="nav navbar-nav">
-      <li class="active"><a href="{{ url('/') }}">Home</a></li>
+      <li class="active"><a href="home">Home</a></li>
       <li><a href="about">About</a></li>
       <li><a href="#">Page 2</a></li> 
       <li><a href="#">Page 3</a></li> 
