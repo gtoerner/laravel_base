@@ -1,16 +1,19 @@
 .navbar-custom {
-    background-color:#229922;
+    background-color:#1dab1d;
     color:#ffffff;
     border-radius:0;
 }
 
 .navbar-custom .navbar-nav > li > a {
-    color:#fff;
+    color:#fffbff;
+    background-color:transparent;
 }
 .navbar-custom .navbar-nav > .active > a, .navbar-nav > .active > a:hover, .navbar-nav > .active > a:focus {
     color: #ffffff;
     background-color:transparent;
 }
 .navbar-custom .navbar-brand {
-    color:#eeeeee;
+    color:#2529ff;
+    font-family: 'Tangerine', serif;
+    font-size: 36px;
 }
