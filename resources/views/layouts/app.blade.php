@@ -49,8 +49,8 @@
       </li>
         <!-- Authentication Links -->
         @if (Auth::guest())
-            <li><a href="{{ url('/login') }}"><span class="glyphicon glyphicon-user"></span> Login</a></li>
-            <li><a href="{{ url('/register') }}"><span class="glyphicon glyphicon-log-in"></span> Register</a></li>
+            <li><a href="{{ url('/login') }}"><span class="glyphicon glyphicon-user"></span><font size=2> Login</font></a></li>
+            <li><a href="{{ url('/register') }}"><span class="glyphicon glyphicon-log-in"></span><font size=2> Register</font></a></li>
         @else
             <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
